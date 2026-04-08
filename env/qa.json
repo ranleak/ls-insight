@@ -1,0 +1,19 @@
+{
+  "active": true,
+  "speedTestActive": false,
+  "locationDataActive": false,
+  "verifyUrl": "https://staging-agent.********/agentconfig/keys/verify",
+  "agentConfigUrl": "https://staging-agent.********/agentconfig/v2",
+  "endpointURL": "https://staging-agent.********/catcher/api/receive",
+  "digitalEquityURL": "https://staging-agent.********/catcher/api/receive-equity",
+  "sendInterval": 5,
+  "checkinInterval": 60,
+  "inactiveTimeout": 900,
+  "maxAge": 240,
+  "collectPII": false,
+  "minCheck": 360,
+  "maxCheck": 720,
+  "speedTestURL": "insight-speedtest.********",
+  "chunkSize": 80000,
+  "chunkCount": 40
+}
